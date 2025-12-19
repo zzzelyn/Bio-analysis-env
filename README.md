@@ -19,12 +19,12 @@
 
 ## 📋 目录 (Table of Contents)
 
-* [1. 基础环境构建](https://www.google.com/search?q=%231-%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%E6%9E%84%E5%BB%BA)
-* [2. 核心软件安装](https://www.google.com/search?q=%232-%E6%A0%B8%E5%BF%83%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85-%E6%9C%80%E5%85%B3%E9%94%AE%E6%AD%A5%E9%AA%A4)
-* [3. Jupyter Notebook 配置](https://www.google.com/search?q=%233-jupyter-notebook-%E9%85%8D%E7%BD%AE-kernel-%E6%B3%A8%E5%86%8C)
-* [4. 扩展包安装](https://www.google.com/search?q=%234-%E5%AE%89%E8%A3%85%E5%B8%B8%E7%94%A8%E7%94%9F%E4%BF%A1%E6%89%A9%E5%B1%95%E5%8C%85)
-* [5. 难点攻克：CellChat 安装](https://www.google.com/search?q=%235-%E9%9A%BE%E7%82%B9%E6%94%BB%E5%85%8Bcellchat-%E5%AE%89%E8%A3%85)
-* [6. 验证与使用](https://www.google.com/search?q=%236-%E9%AA%8C%E8%AF%81%E7%8E%AF%E5%A2%83)
+* [1. 基础环境构建](## 1. 基础环境构建)
+* [2. 核心软件安装]( )
+* [3. Jupyter Notebook 配置]( )
+* [4. 扩展包安装]( )
+* [5. 难点攻克：CellChat 安装]( )
+* [6. 验证与使用]( )
 
 ---
 
