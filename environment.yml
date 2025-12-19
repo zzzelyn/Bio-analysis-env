@@ -1,0 +1,56 @@
+name: bio_env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  # --- 1. 基础核心 ---
+  - python=3.10
+  - r-base=4.3.3
+  - pip
+  - git
+
+  # --- 2. 核心分析框架 ---
+  - scanpy              # Python 单细胞分析
+  - python-igraph
+  - leidenalg
+  - r-seurat=4.3.0      # R 单细胞分析 (指定版本以防升级导致不兼容)
+  - r-tidyverse
+  - r-devtools
+  - r-matrix
+
+  # --- 3. Jupyter 交互环境 ---
+  - ipykernel           # Python Kernel
+  - r-irkernel          # R Kernel
+  - jupyterlab
+
+  # --- 4. 常用可视化与分析扩展 ---
+  - r-clustree
+  - r-cowplot
+  - r-patchwork
+  - r-pheatmap
+  - r-ggpubr
+  - bioconductor-enhancedvolcano
+
+  # --- 5. 富集分析与数据库 ---
+  - bioconductor-clusterprofiler
+  - bioconductor-fgsea
+  - bioconductor-enrichplot
+  - bioconductor-org.mm.eg.db
+  - bioconductor-complexheatmap
+
+  # --- 6. 高级分析依赖 (Monocle/SCENIC/CellChat) ---
+  - bioconductor-monocle
+  - bioconductor-aucell
+  - bioconductor-rcistarget
+  - r-nmnf
+  - r-svglite
+
+  # --- 7. 系统编译工具 (为源码编译保驾护航) ---
+  - cmake
+  - make
+  - gxx_linux-64        # C++ 编译器
+  - gcc_linux-64        # C 编译器
+  - gfortran_linux-64   # Fortran 编译器
+  - binutils    
+  - kernel-headers_linux-64
