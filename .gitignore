@@ -1,0 +1,10 @@
+.DS_Store
+.ipynb_checkpoints/
+*.Rproj
+.Rhistory
+.RData
+*.gz
+*.zip
+# 忽略大的数据文件夹
+data/
+output/
